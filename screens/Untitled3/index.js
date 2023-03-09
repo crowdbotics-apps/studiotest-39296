@@ -21,13 +21,19 @@ const styles = StyleSheet.create({
     height: '100%'
   },
   row1: {
-    flex: 1
+    flex: 1,
+    borderRadius: 40,
+    backgroundColor: "#be2cb6"
   },
   row2: {
-    flex: 1
+    flex: 1,
+    borderRadius: 40,
+    backgroundColor: "#ef2d2d"
   },
   row3: {
-    flex: 1
+    flex: 1,
+    borderRadius: 40,
+    backgroundColor: "#24daa3"
   }
 });
 export default Untitled3;

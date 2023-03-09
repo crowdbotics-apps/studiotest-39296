@@ -10,13 +10,14 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }} style={styles.hzSbBdMr}><View style={styles.JWncHDQA}><Text style={styles.xzibjkPD}>Managers Add New</Text></View><Pressable onPress={{}}><Pressable onPress={{}}><View style={styles.BaDhAmNs}><Text style={styles.qnihsdRT}>Head Add New</Text></View></Pressable></Pressable><Text style={styles.LnMPEWTz}>KOMATSU</Text></ScrollView>
+    }} style={styles.hzSbBdMr}><View style={styles.JWncHDQA}><Text style={styles.xzibjkPD}>Managers Add New</Text></View><Pressable onPress={{}}><View style={styles.BaDhAmNs}><Text style={styles.qnihsdRT}>Head Add New</Text></View></Pressable><Text style={styles.LnMPEWTz}>KOMATSU</Text></ScrollView>
     </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
-    height: '100%'
+    height: '100%',
+    backgroundColor: "#24daa3"
   },
   kTYBYjYp: {
     width: 114,
@@ -58,8 +59,8 @@ const styles = StyleSheet.create({
     color: "#ffffff"
   },
   hzSbBdMr: {
-    backgroundColor: "#e3e3e3",
-    borderRadius: 40
+    backgroundColor: "#ed1717",
+    borderRadius: 0
   },
   BaDhAmNs: {
     height: 121,
@@ -189,6 +190,20 @@ const styles = StyleSheet.create({
   eMtusiMA: {
     backgroundColor: "#000000",
     height: 1
+  },
+  LClkNwNi: {
+    height: 42,
+    width: 125,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
+  },
+  MkznJoMp: {
+    height: 60,
+    width: 155,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
 export default Untitled1;
