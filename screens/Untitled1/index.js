@@ -1,3 +1,4 @@
+import { FlatList } from "react-native";
 import { Pressable } from "react-native";
 import { Text } from "react-native";
 import React from "react";
@@ -10,7 +11,9 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }} style={styles.hzSbBdMr}><View style={styles.JWncHDQA}><Text style={styles.xzibjkPD}>Managers Add New</Text></View><Pressable onPress={{}}><Pressable onPress={{}}><View style={styles.BaDhAmNs}><Text style={styles.qnihsdRT}>Head Add New</Text></View></Pressable></Pressable><Text style={styles.LnMPEWTz}>KOMATSU</Text><View style={styles.DrVwJCdX}></View><View style={styles.qVMOsuMr}></View></ScrollView>
+    }} style={styles.hzSbBdMr}><View style={styles.JWncHDQA}><Text style={styles.xzibjkPD}>Managers Add New</Text></View><Pressable onPress={{}}><Pressable onPress={{}}><View style={styles.BaDhAmNs}><Text style={styles.qnihsdRT}>Head Add New</Text></View></Pressable></Pressable><Text style={styles.LnMPEWTz}>KOMATSU</Text><View style={styles.DrVwJCdX}></View><FlatList style={styles.AIdGXWwy} renderItem={({
+        item
+      }) => <View style={styles.DXYhPFHF}></View>} ItemSeparatorComponent={() => <View style={styles.eMtusiMA} />} data={[1, 2, 3]} keyExtractor={(item, index) => index}></FlatList></ScrollView>
     </SafeAreaView>;
 };
 
@@ -30,7 +33,7 @@ const styles = StyleSheet.create({
     height: 120,
     width: 140,
     backgroundColor: "#1e3be5",
-    borderRadius: 2,
+    borderRadius: 80,
     color: "#777777",
     alignItems: "end",
     position: "absolute",
@@ -63,7 +66,7 @@ const styles = StyleSheet.create({
     height: 121,
     width: 150,
     backgroundColor: "#fe7e00",
-    borderRadius: 2,
+    borderRadius: 0,
     color: "#777777",
     position: "absolute",
     left: 171,
@@ -166,11 +169,27 @@ const styles = StyleSheet.create({
     color: "#777777"
   },
   qVMOsuMr: {
-    height: 154,
-    width: 107,
+    height: 164,
+    width: 126,
     backgroundColor: "#E4E4E4",
     borderRadius: 0,
     color: "#777777"
+  },
+  AIdGXWwy: {
+    position: "absolute",
+    width: 100,
+    height: 150,
+    left: 26,
+    top: 236
+  },
+  DXYhPFHF: {
+    width: "100%",
+    height: 60,
+    backgroundColor: "#dcf732"
+  },
+  eMtusiMA: {
+    backgroundColor: "#000000",
+    height: 1
   }
 });
 export default Untitled1;
