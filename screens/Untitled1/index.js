@@ -1,4 +1,3 @@
-import { FlatList } from "react-native";
 import { Pressable } from "react-native";
 import { Text } from "react-native";
 import React from "react";
@@ -11,9 +10,7 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }} style={styles.hzSbBdMr}><View style={styles.JWncHDQA}><Text style={styles.xzibjkPD}>Managers Add New</Text></View><Pressable onPress={{}}><Pressable onPress={{}}><View style={styles.BaDhAmNs}><Text style={styles.qnihsdRT}>Head Add New</Text></View></Pressable></Pressable><Text style={styles.LnMPEWTz}>KOMATSU</Text><View style={styles.DrVwJCdX}></View><FlatList style={styles.AIdGXWwy} renderItem={({
-        item
-      }) => <View style={styles.DXYhPFHF}></View>} ItemSeparatorComponent={() => <View style={styles.eMtusiMA} />} data={[1, 2, 3]} keyExtractor={(item, index) => index}></FlatList></ScrollView>
+    }} style={styles.hzSbBdMr}><View style={styles.JWncHDQA}><Text style={styles.xzibjkPD}>Managers Add New</Text></View><Pressable onPress={{}}><Pressable onPress={{}}><View style={styles.BaDhAmNs}><Text style={styles.qnihsdRT}>Head Add New</Text></View></Pressable></Pressable><Text style={styles.LnMPEWTz}>KOMATSU</Text></ScrollView>
     </SafeAreaView>;
 };
 
@@ -32,8 +29,8 @@ const styles = StyleSheet.create({
   JWncHDQA: {
     height: 120,
     width: 140,
-    backgroundColor: "#1e3be5",
-    borderRadius: 80,
+    backgroundColor: "#3e54d4",
+    borderRadius: 0,
     color: "#777777",
     alignItems: "end",
     position: "absolute",
@@ -56,7 +53,9 @@ const styles = StyleSheet.create({
     textAlign: "center",
     position: "absolute",
     top: 31,
-    left: 21
+    left: 21,
+    opacity: 1,
+    color: "#ffffff"
   },
   hzSbBdMr: {
     backgroundColor: "#e3e3e3",
@@ -148,7 +147,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 30,
     top: 28,
-    color: "#000000"
+    color: "#ffffff"
   },
   CDOpjCSG: {
     width: 107,
