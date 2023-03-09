@@ -1,4 +1,3 @@
-import { ImageBackground } from "react-native";
 import { Pressable } from "react-native";
 import { Text } from "react-native";
 import React from "react";
@@ -11,7 +10,7 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }} style={styles.hzSbBdMr}><View style={styles.JWncHDQA}><Text style={styles.xzibjkPD}>Managers Add New</Text></View><Pressable onPress={{}}><Pressable onPress={{}}><View style={styles.BaDhAmNs}><Text style={styles.qnihsdRT}>Head Add New</Text></View></Pressable></Pressable><Text style={styles.LnMPEWTz}>KOMATSU</Text><ImageBackground style={styles.CDOpjCSG} source={require("./milos.PNG")} resizeMode="cover"></ImageBackground></ScrollView>
+    }} style={styles.hzSbBdMr}><View style={styles.JWncHDQA}><Text style={styles.xzibjkPD}>Managers Add New</Text></View><Pressable onPress={{}}><Pressable onPress={{}}><View style={styles.BaDhAmNs}><Text style={styles.qnihsdRT}>Head Add New</Text></View></Pressable></Pressable><Text style={styles.LnMPEWTz}>KOMATSU</Text><View style={styles.DrVwJCdX}></View><View style={styles.qVMOsuMr}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -30,7 +29,7 @@ const styles = StyleSheet.create({
   JWncHDQA: {
     height: 120,
     width: 140,
-    backgroundColor: "#b0efbe",
+    backgroundColor: "#1e3be5",
     borderRadius: 2,
     color: "#777777",
     alignItems: "end",
@@ -61,14 +60,14 @@ const styles = StyleSheet.create({
     borderRadius: 40
   },
   BaDhAmNs: {
-    height: 114,
+    height: 121,
     width: 150,
-    backgroundColor: "#b0efbe",
+    backgroundColor: "#fe7e00",
     borderRadius: 2,
     color: "#777777",
     position: "absolute",
-    left: 172,
-    top: 69
+    left: 171,
+    top: 65
   },
   LmuFztZq: {
     backgroundColor: "#b0efbe",
@@ -144,8 +143,8 @@ const styles = StyleSheet.create({
     textAlign: "center",
     letterSpacing: 1,
     position: "absolute",
-    left: 25,
-    top: 27,
+    left: 30,
+    top: 28,
     color: "#000000"
   },
   CDOpjCSG: {
@@ -153,6 +152,25 @@ const styles = StyleSheet.create({
     height: 62,
     position: "absolute",
     top: 256
+  },
+  ftzHSorU: {
+    width: 107,
+    height: 62,
+    position: "relative"
+  },
+  DrVwJCdX: {
+    height: 51,
+    width: 162,
+    backgroundColor: "#51b8e3",
+    borderRadius: 0,
+    color: "#777777"
+  },
+  qVMOsuMr: {
+    height: 154,
+    width: 107,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
 export default Untitled1;
