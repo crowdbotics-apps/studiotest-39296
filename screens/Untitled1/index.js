@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     height: 120,
     width: 142,
     backgroundColor: "#3e54d4",
-    borderRadius: 0,
+    borderRadius: 8,
     color: "#777777",
     alignItems: "end",
     position: "absolute",
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     height: 121,
     width: 150,
     backgroundColor: "#fe7e00",
-    borderRadius: 0,
+    borderRadius: 8,
     color: "#777777",
     position: "absolute",
     left: 171,
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
     textAlign: "center"
   },
   LnMPEWTz: {
-    width: 348,
+    width: 322,
     height: 26,
     lineHeight: 18,
     fontSize: 30,
@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     position: "absolute",
-    left: 5,
+    left: 15,
     top: 13
   },
   vDqTqIcR: {
@@ -212,7 +212,7 @@ const styles = StyleSheet.create({
     height: 121,
     width: 150,
     backgroundColor: "#f3e518",
-    borderRadius: 0,
+    borderRadius: 8,
     color: "#777777",
     position: "absolute",
     left: 181,
@@ -235,7 +235,7 @@ const styles = StyleSheet.create({
     height: 121,
     width: 148,
     backgroundColor: "#6aa3db",
-    borderRadius: 0,
+    borderRadius: 8,
     color: "#777777",
     position: "absolute",
     left: 17,
@@ -365,9 +365,14 @@ const styles = StyleSheet.create({
     textAlign: "center",
     letterSpacing: 1,
     position: "absolute",
-    left: 23,
-    top: 517,
-    color: "#000000"
+    left: 14,
+    top: 518,
+    color: "#000000",
+    opacity: 0.6
+  },
+  rXsezqiW: {
+    width: 107,
+    height: 62
   }
 });
 export default Untitled1;
