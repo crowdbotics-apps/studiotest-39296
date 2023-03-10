@@ -12,14 +12,13 @@ const Untitled1 = () => {
       flex: 1
     }} style={styles.hzSbBdMr}><View style={styles.JWncHDQA}><Text style={styles.xzibjkPD}>Managers Add New</Text></View><Pressable onPress={{}}><View style={styles.BaDhAmNs}><Text style={styles.qnihsdRT}>Head Add New</Text></View></Pressable><Text style={styles.LnMPEWTz}>KOMATSU</Text></ScrollView>
     <View style={styles.ozIsLlkR}><Text style={styles.yaalOiUP}>Drivers
-Add New</Text></View><View style={styles.IXNfAoXK}><Text style={styles.DkJhvBnp}>Analyst
-Add New</Text></View><View style={styles.umvFfsfD}></View><Text style={styles.rSJWOkba}>Search</Text><Text style={styles.SDYQVllY}>Enter</Text></SafeAreaView>;
+Add New</Text></View><View style={styles.IXNfAoXK}><Text style={styles.DkJhvBnp}>Analyst Add New</Text></View><View style={styles.umvFfsfD}></View><Text style={styles.rSJWOkba}>Search</Text><Text style={styles.SDYQVllY}>Enter</Text><View style={styles.VjCArCbK}></View><Text style={styles.cCQBiYEo}>Candidates</Text></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%',
-    backgroundColor: "#efebe7"
+    backgroundColor: "#ffffff"
   },
   kTYBYjYp: {
     width: 114,
@@ -31,14 +30,14 @@ const styles = StyleSheet.create({
   },
   JWncHDQA: {
     height: 120,
-    width: 140,
+    width: 142,
     backgroundColor: "#3e54d4",
     borderRadius: 0,
     color: "#777777",
     alignItems: "end",
     position: "absolute",
-    left: 19,
-    top: 76
+    left: 20,
+    top: 75
   },
   HEQqbzRN: {
     flex: 1
@@ -234,13 +233,13 @@ const styles = StyleSheet.create({
   },
   IXNfAoXK: {
     height: 121,
-    width: 150,
+    width: 148,
     backgroundColor: "#6aa3db",
     borderRadius: 0,
     color: "#777777",
     position: "absolute",
-    left: 15,
-    top: 215
+    left: 17,
+    top: 212
   },
   DkJhvBnp: {
     width: 87,
@@ -265,14 +264,14 @@ const styles = StyleSheet.create({
   umvFfsfD: {
     height: 38,
     width: 326,
-    backgroundColor: "#f1ebe6",
+    backgroundColor: "#ffffff",
     borderRadius: 10,
     color: "#777777",
     position: "absolute",
     left: 19,
     top: 421,
     borderColor: "#000000",
-    borderWidth: 1
+    borderWidth: 0
   },
   brypJsrh: {
     width: 87,
@@ -342,7 +341,33 @@ const styles = StyleSheet.create({
     left: 25,
     top: 429,
     color: "#000000",
-    opacity: 0.6
+    opacity: 0.6,
+    fontWeight: "400"
+  },
+  VjCArCbK: {
+    height: 47,
+    width: 364,
+    backgroundColor: "#dfdfdf",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    left: -2,
+    top: 508,
+    borderColor: "#000000",
+    borderWidth: 0
+  },
+  cCQBiYEo: {
+    width: 115,
+    height: 57,
+    lineHeight: 25,
+    fontSize: 19,
+    borderRadius: 0,
+    textAlign: "center",
+    letterSpacing: 1,
+    position: "absolute",
+    left: 23,
+    top: 517,
+    color: "#000000"
   }
 });
 export default Untitled1;
