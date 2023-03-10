@@ -11,13 +11,15 @@ const Untitled1 = () => {
       position: 'relative',
       flex: 1
     }} style={styles.hzSbBdMr}><View style={styles.JWncHDQA}><Text style={styles.xzibjkPD}>Managers Add New</Text></View><Pressable onPress={{}}><View style={styles.BaDhAmNs}><Text style={styles.qnihsdRT}>Head Add New</Text></View></Pressable><Text style={styles.LnMPEWTz}>KOMATSU</Text></ScrollView>
-    </SafeAreaView>;
+    <View style={styles.ozIsLlkR}><Text style={styles.yaalOiUP}>Drivers
+Add New</Text></View><View style={styles.IXNfAoXK}><Text style={styles.DkJhvBnp}>Analyst
+Add New</Text></View><View style={styles.umvFfsfD}></View><Text style={styles.rSJWOkba}>Search</Text><Text style={styles.SDYQVllY}>Enter</Text></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%',
-    backgroundColor: "#24daa3"
+    backgroundColor: "#efebe7"
   },
   kTYBYjYp: {
     width: 114,
@@ -46,7 +48,7 @@ const styles = StyleSheet.create({
   },
   xzibjkPD: {
     width: 102,
-    height: 59,
+    height: 58,
     lineHeight: 25,
     fontSize: 19,
     borderRadius: 0,
@@ -59,8 +61,10 @@ const styles = StyleSheet.create({
     color: "#ffffff"
   },
   hzSbBdMr: {
-    backgroundColor: "#ed1717",
-    borderRadius: 0
+    backgroundColor: "#f1ebe6",
+    borderRadius: 0,
+    borderWidth: 0,
+    opacity: 0.93
   },
   BaDhAmNs: {
     height: 121,
@@ -204,6 +208,141 @@ const styles = StyleSheet.create({
     backgroundColor: "#E4E4E4",
     borderRadius: 0,
     color: "#777777"
+  },
+  ozIsLlkR: {
+    height: 121,
+    width: 150,
+    backgroundColor: "#f3e518",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    left: 181,
+    top: 212
+  },
+  yaalOiUP: {
+    width: 87,
+    height: 57,
+    lineHeight: 25,
+    fontSize: 19,
+    borderRadius: 0,
+    textAlign: "center",
+    letterSpacing: 1,
+    position: "absolute",
+    left: 30,
+    top: 28,
+    color: "#ffffff"
+  },
+  IXNfAoXK: {
+    height: 121,
+    width: 150,
+    backgroundColor: "#6aa3db",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    left: 15,
+    top: 215
+  },
+  DkJhvBnp: {
+    width: 87,
+    height: 57,
+    lineHeight: 25,
+    fontSize: 19,
+    borderRadius: 0,
+    textAlign: "center",
+    letterSpacing: 1,
+    position: "absolute",
+    left: 30,
+    top: 28,
+    color: "#ffffff"
+  },
+  qUwxrZHv: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
+  },
+  umvFfsfD: {
+    height: 38,
+    width: 326,
+    backgroundColor: "#f1ebe6",
+    borderRadius: 10,
+    color: "#777777",
+    position: "absolute",
+    left: 19,
+    top: 421,
+    borderColor: "#000000",
+    borderWidth: 1
+  },
+  brypJsrh: {
+    width: 87,
+    height: 57,
+    lineHeight: 25,
+    fontSize: 19,
+    borderRadius: 0,
+    textAlign: "center",
+    letterSpacing: 1,
+    position: "absolute",
+    left: 30,
+    top: 28,
+    color: "#ffffff"
+  },
+  OpQFogmO: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  ZZDywXks: {
+    height: 121,
+    width: 150,
+    backgroundColor: "#fe7e00",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    left: 171,
+    top: 196
+  },
+  BmfLYJFr: {
+    width: 87,
+    height: 57,
+    lineHeight: 25,
+    fontSize: 19,
+    borderRadius: 0,
+    textAlign: "center",
+    letterSpacing: 1,
+    position: "absolute",
+    left: 30,
+    top: 28,
+    color: "#ffffff"
+  },
+  rSJWOkba: {
+    width: 87,
+    height: 57,
+    lineHeight: 25,
+    fontSize: 19,
+    borderRadius: 0,
+    textAlign: "center",
+    letterSpacing: 1,
+    position: "absolute",
+    left: 9,
+    top: 388,
+    color: "#000000"
+  },
+  SDYQVllY: {
+    width: 87,
+    height: 57,
+    lineHeight: 18,
+    fontSize: 19,
+    borderRadius: 0,
+    textAlign: "left",
+    letterSpacing: 1,
+    position: "absolute",
+    left: 25,
+    top: 429,
+    color: "#000000",
+    opacity: 0.6
   }
 });
 export default Untitled1;
